@@ -1,0 +1,36 @@
+<template>
+  <a href="#get-a-quote" class="get-a-quote-btn scrollto d-none d-lg-flex"
+    >Get a quote</a
+  >
+</template>
+
+<script>
+export default {};
+</script>
+
+<style>
+.get-a-quote-btn {
+  margin: 0 0 0 15px;
+  border: 2px solid #cda45e;
+  color: #fff;
+  border-radius: 50px;
+  padding: 8px 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  transition: 0.3s;
+}
+
+.get-a-quote-btn:hover {
+  background: #cda45e;
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  .get-a-quote-btn {
+    margin: 0 15px 0 0;
+    padding: 8px 20px;
+  }
+}
+</style>
